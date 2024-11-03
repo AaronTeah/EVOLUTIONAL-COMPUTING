@@ -8,12 +8,13 @@ import pandas as pd
 import seaborn as sns
 import streamlit as st
 
-x = [0,3,6,7,15,10,16,5,8,1.5]
-y = [1,2,1,4.5,-1,2.5,11,6,9,12]
+#x = [0,3,6,7,15,10,16,5,8,1.5]
+#y = [1,2,1,4.5,-1,2.5,11,6,9,12]
 
-numbers = [st.number_input(f"Enter number {i}") for i in range(4)]
-st.write(numbers)
-print(numbers)
+x = [st.number_input(f"Enter number {i}") for i in range(10)]
+st.write(x)
+y = [st.number_input(f"Enter number {i}") for i in range(10)]
+st.write(y)
 
 #x = []
 #y = []
