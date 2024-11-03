@@ -10,10 +10,10 @@ import streamlit as st
 
 # x = [0,3,6,7,15,10,16,5,8,1.5]
 # y = [1,2,1,4.5,-1,2.5,11,6,9,12]
-cities_names = ["Gliwice", "Cairo", "Rome", "Krakow", "Paris", "Alexandria", "Berlin", "Tokyo", "Rio", "Budapest"]
+
 x = []
 y = []
-cities_names = []
+# cities_names = []
 for z in range(10):
     print(f"The {z+1} Location")
     x.append(st.number_input(f"Enter X coordinate"))
@@ -22,6 +22,8 @@ for z in range(10):
     print(x)
     print(y)
     #print(cities_names)
+
+cities_names = ["Gliwice", "Cairo", "Rome", "Krakow", "Paris", "Alexandria", "Berlin", "Tokyo", "Rio", "Budapest"]
 
 city_coords = dict(zip(cities_names, zip(x, y)))
 n_population = 250
