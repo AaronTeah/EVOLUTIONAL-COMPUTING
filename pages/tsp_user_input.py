@@ -14,9 +14,9 @@ cities_names = ["Gliwice", "Cairo", "Rome", "Krakow", "Paris", "Alexandria", "Be
 x = []
 y = []
 cities_names = []
-for z in range(9):
-    x.append(st.number_input(f"Enter your {z} X coordinate"))
-    x.append(st.number_input(f"Enter your the {z} Y coordinate"))
+for z in range(10):
+    x.append(st.number_input(f"Enter your {z+1} X coordinate"))
+    x.append(st.number_input(f"Enter your the {z+1} Y coordinate"))
 
 
 city_coords = dict(zip(cities_names, zip(x, y)))
