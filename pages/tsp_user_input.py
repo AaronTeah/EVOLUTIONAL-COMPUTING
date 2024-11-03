@@ -19,6 +19,9 @@ for z in range(10):
     x.append(st.number_input(f"Enter X coordinate"))
     x.append(st.number_input(f"Enter Y coordinate"))
     cities_names.append(st.text_input("Enter the location"))
+    print(x)
+    print(y)
+    print(cities_names)
 
 city_coords = dict(zip(cities_names, zip(x, y)))
 n_population = 250
