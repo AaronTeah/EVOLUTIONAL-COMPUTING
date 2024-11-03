@@ -30,7 +30,7 @@ n_generations = 200
 colors = sns.color_palette("pastel", len(cities_names))
 
 # City Icons
-city_icons = {
+"""city_icons = {
     "Gliwice": "♕",
     "Cairo": "♖",
     "Rome": "♗",
@@ -41,6 +41,19 @@ city_icons = {
     "Tokyo": "♛",
     "Rio": "♜",
     "Budapest": "♝"
+}"""
+
+city_icons = {
+    cities_names[0]: "♕",
+    cities_names[1]: "♖",
+    cities_names[2]: "♗",
+    cities_names[3]: "♘",
+    cities_names[4]: "♙",
+    cities_names[5]: "♔",
+    cities_names[6]: "♚",
+    cities_names[7]: "♛",
+    cities_names[8]: "♜",
+    cities_names[9]: "♝"
 }
 
 fig, ax = plt.subplots()
