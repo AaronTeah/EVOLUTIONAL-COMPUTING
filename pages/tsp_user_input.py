@@ -15,8 +15,8 @@ x = []
 y = []
 cities_names = []
 for z in range(9):
-    x.append(st.number_input("Enter your the X coordinate"))
-    x.append(st.number_input("Enter your the Y coordinate"))
+    x.append(st.number_input("Enter your the" + z + "X coordinate"))
+    x.append(st.number_input("Enter your the" + z + " Y coordinate"))
 
 
 city_coords = dict(zip(cities_names, zip(x, y)))
