@@ -14,7 +14,7 @@ cities_names = ["Gliwice", "Cairo", "Rome", "Krakow", "Paris", "Alexandria", "Be
 x = []
 y = []
 cities_names = []
-for x in range(9):
+for z in range(9):
     x.append(st.number_input("Enter your the X coordinate"))
     x.append(st.number_input("Enter your the Y coordinate"))
 
