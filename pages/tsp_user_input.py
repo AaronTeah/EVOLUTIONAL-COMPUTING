@@ -13,7 +13,7 @@ import streamlit as st
 
 x = [st.number_input(f"Enter number {i}") for i in range(10)]
 st.write(x)
-y = [st.number_input(f"Enter number {i}") for i in range(10)]
+y = [st.number_input(f"Enter number {j}") for j in range(10)]
 st.write(y)
 
 #x = []
