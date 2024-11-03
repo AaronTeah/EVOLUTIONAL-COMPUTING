@@ -16,8 +16,10 @@ y = []
 # cities_names = []
 for z in range(10):
     print(f"The {z+1} Location")
-    x.append(st.number_input(f"Enter X coordinate"))
-    y.append(st.number_input(f"Enter Y coordinate"))
+    xx = st.number_input(f"Enter X coordinate")
+    x.append(xx)
+    yy = st.number_input(f"Enter Y coordinate")
+    y.append(yy)
     #cities_names.append(st.text_input("Enter the location"))
     print(x)
     print(y)
