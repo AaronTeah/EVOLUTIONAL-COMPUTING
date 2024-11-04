@@ -16,7 +16,9 @@ st.write(x)
 y = [st.number_input(f"Enter Y coordinate {j}") for j in range(10)]
 st.write(y)
 cities_names = [st.text_input(f"Enter cities names {k}") for k in range(10)]
-st.write(cities_names)
+st.write(cities_names) 
+
+submit_button = st.form_submit_button()
 
 #cities_names = ["Gliwice", "Cairo", "Rome", "Krakow", "Paris", "Alexandria", "Berlin", "Tokyo", "Rio", "Budapest"]
 
